@@ -25,7 +25,7 @@ public void setup()
 	    double fNum = Double.parseDouble(digits);
 	    if(isPrime(fNum) == true)
 	    {
-	    	System.out.println(fNum);
+	    	System.out.println("the prime is: " + fNum);
 	    	break;
 	    }
 	}
@@ -42,7 +42,7 @@ public void setup()
 			thing = 0;
 		if(count == 5)
 		{
-			System.out.println(Double.parseDouble(e.substring(j,j+10)));
+			System.out.println("f(5)= " + Double.parseDouble(e.substring(j,j+10)));
 			break;
 		}
 
